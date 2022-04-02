@@ -1,6 +1,20 @@
-.cards__card{
+.cards__card {
+  width: 288px;
+  height: 250px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: aqua;
+
+  background-color: #e0f0ff;
+  margin: 12px 5px 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cards__card::after {
+  content: url(../../images/pin.svg);
+  position: absolute;
+  top: -12px;
+  right: -12px;
 }
