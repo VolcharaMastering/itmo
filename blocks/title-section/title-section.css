@@ -1,5 +1,8 @@
 .title-section {
   box-sizing: border-box;
   padding: 30px 16px 58px;
-
+  background-image: url(../../images/Background_small.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
 }

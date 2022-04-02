@@ -4,4 +4,7 @@
 @import url(../blocks/page/page.css);
 
 /* title-section import */
-@import url(/blocks/title-section/title-section.css);
+@import url(../blocks/title-section/title-section.css);
+@import url(../blocks/title-section/title-section__title.css);
+@import url(../blocks/title-section/title-section__subtitle.css);
+@import url(../blocks/title-section/title-section__button.css);
