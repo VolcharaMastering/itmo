@@ -1,0 +1,10 @@
+.cards__date {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400px;
+  padding:16px 0 0 16px;
+  color: #009fac;
+  margin: 0;
+}

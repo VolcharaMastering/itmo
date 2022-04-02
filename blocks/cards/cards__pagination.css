@@ -1,0 +1,13 @@
+.cards__pagination {
+  position: relative;
+  margin: 16px auto;
+}
+
+/* not BEM at all */
+.cards__pagination .swiper-pagination-bullet {
+  background: rgba(255,255,255, .5);
+}
+
+.cards__pagination .swiper-pagination-bullet-active {
+  background: #fff;
+}
