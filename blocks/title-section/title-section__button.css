@@ -15,3 +15,8 @@
   justify-content: center;
   align-items: center;
 }
+
+.title-section__button:hover {
+  color: #e0f0ff;
+  border: #e0f0ff 1px solid;
+}
