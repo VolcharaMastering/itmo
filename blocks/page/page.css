@@ -11,6 +11,9 @@
   display: flex;
   flex-direction: column;
   font-family: "OpenSans", Arial, Helvetica, sans-serif;
+
+  /* зачем-то есть в библиотеке */
+  position: relative;
 }
 
 /* если оставлять уши */

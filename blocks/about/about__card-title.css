@@ -1,0 +1,29 @@
+.about__card-title {
+  max-width: 80%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 0 auto 12px 16px;
+  padding: 8px 0 0 0;
+  /* border-bottom: 1px solid #009fac; */
+
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+  text-transform: uppercase;
+  height: 52px;
+}
+
+@media screen and (min-width: 481px) {
+  .about__card-title {
+    font-size: 18px;
+    line-height: 30px;
+    height: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

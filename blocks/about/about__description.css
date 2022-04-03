@@ -1,11 +1,11 @@
-.cards__description {
+.about__description {
   max-width: 85%;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #000d26;
-  margin: 0;
-  padding: 12px 16px 0px;
+  margin-left: 16px;
+  padding: 12px 0 0px;
 
   display: block;
   overflow: hidden;
@@ -14,4 +14,15 @@
   display: -webkit-box;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
+  border-top: 1px solid #009fac;
+
+}
+
+@media screen and (min-width: 481px) {
+  .about__description {
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }

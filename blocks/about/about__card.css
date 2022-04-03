@@ -1,0 +1,45 @@
+.about__card {
+  width: 288px;
+  height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background-color: #e0f0ff;
+  margin: 12px 5px 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.about__card::after {
+  content: '';
+  background-image: url(../../images/pin.svg);
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  top: -12px;
+  right: -14px;
+}
+
+@media screen and (min-width: 481px) {
+  .about__card {
+    width: 344px;
+    height: 345px;
+  }
+  .about__card::after {
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    right: -26px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about__card {
+    width: 360px;
+    height: 356px;
+  }
+}

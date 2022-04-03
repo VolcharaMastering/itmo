@@ -6,9 +6,25 @@
   color: #fff;
   background: none;
   cursor: pointer;
-  width: 100%;
+  max-width: 330px;
   height: 44px;
   margin: 0;
   border: 1px solid #fff;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-section__button:hover {
+  color: #e0f0ff;
+  border: #e0f0ff 1px solid;
+}
+
+@media screen and (min-width: 481px) {
+  .title-section__button {
+    height: 62px;
+    font-size: 18px;
+    line-height: 30px;
+  }
 }

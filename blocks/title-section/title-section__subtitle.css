@@ -4,4 +4,23 @@
   font-weight: 400;
   margin: 0;
   padding-bottom: 50px;
+  letter-spacing: .1px;
+}
+
+@media screen and (min-width: 481px) {
+  .title-section__subtitle {
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .title-section__subtitle {
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

@@ -1,8 +1,25 @@
 .title-section {
-  box-sizing: border-box;
+  max-width: 100%;
   padding: 30px 16px 58px;
   background-image: url(../../images/Background_small.png);
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+}
+
+@media screen and (min-width: 481px) {
+  .title-section {
+    padding-left: calc(16px + 3%);
+    padding-right: calc(16px + 35%);
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .title-section {
+    padding: 92px 165px 120px;
+    padding-left: calc(100% - 440px - 165px);
+    background-image: url(../../images/Background.png);
+  }
 }

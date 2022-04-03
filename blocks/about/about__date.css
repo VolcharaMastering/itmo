@@ -1,4 +1,4 @@
-.cards__date {
+.about__date {
   font-style: italic;
   text-decoration: underline;
   font-size: 12px;
@@ -7,4 +7,12 @@
   padding:16px 0 0 16px;
   color: #009fac;
   margin: 0;
+}
+
+@media screen and (min-width: 481px) {
+  .date {
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 20px;
+  }
 }

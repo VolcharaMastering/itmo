@@ -14,12 +14,12 @@
 
 /* about-section import */
 @import url(../blocks/about/about.css);
-@import url(../blocks/about/about__subtilte.css);
+@import url(../blocks/about/about__card.css);
+@import url(../blocks/about/about__date.css);
+@import url(../blocks/about/about__card-title.css);
+@import url(../blocks/about/about__description.css);
+@import url(../blocks/about/about__pagination.css);
 @import url(../blocks/about/about__title.css);
-
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/cards__card.css);
-@import url(../blocks/cards/cards__date.css);
-@import url(../blocks/cards/cards__title.css);
-@import url(../blocks/cards/cards__description.css);
-@import url(../blocks/cards/cards__pagination.css);
+@import url(../blocks/about/about__subtitle.css);
+@import url(../blocks/about/about__button.css);
+@import url(../blocks/about/about__button_hidden.css);
