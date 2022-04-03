@@ -1,4 +1,4 @@
-const cardsSwiper = new Swiper(".about", {
+const aboutSwiper = new Swiper(".about", {
   slidesPerView: "auto",
   centeredSlides: true,
   spaceBetween: 0,
@@ -7,14 +7,21 @@ const cardsSwiper = new Swiper(".about", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
 
-const tabletMedia = window.matchMedia("(min-width: 481px)");
+const aboutNavButtons = Array.from(document.querySelectorAll('.about__button'));
+
+// listner for changing aboutSwiper object
+const tabletMedia = window.matchMedia("screen and (min-width: 1024px)");
 const handleTablet = (med) => {
   if (med.matches){
-    console.log('RAZ')
+    aboutNavButtons.forEach(elem => {elem.classList.remove('about__button_hidden')});
   } else {
-    console.log('DWA')
+    aboutNavButtons.forEach(elem => {elem.classList.add('about__button_hidden')});
   }
 }
 handleTablet(tabletMedia);
