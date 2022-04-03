@@ -1,8 +1,11 @@
 .title-section {
+  border: 2px red solid;
+  max-width: 100%;
   box-sizing: border-box;
   padding: 30px 16px 58px;
   background-image: url(../../images/Background_small.png);
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
   color: #fff;
 }
