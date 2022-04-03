@@ -1,4 +1,4 @@
-const cardsSwiper = new Swiper(".cards", {
+const cardsSwiper = new Swiper(".about", {
   slidesPerView: "auto",
   centeredSlides: true,
   spaceBetween: 0,

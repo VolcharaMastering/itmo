@@ -1,4 +1,4 @@
-.cards__card {
+.about__card {
   width: 288px;
   height: 250px;
 
@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-.cards__card::after {
+.about__card::after {
   content: url(../../images/pin.svg);
   position: absolute;
   top: -12px;
