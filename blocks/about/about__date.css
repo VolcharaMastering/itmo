@@ -8,3 +8,11 @@
   color: #009fac;
   margin: 0;
 }
+
+@media screen and (min-width: 481px) {
+  .date {
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 20px;
+  }
+}

@@ -13,8 +13,33 @@
 }
 
 .about__card::after {
-  content: url(../../images/pin.svg);
+  content: '';
+  background-image: url(../../images/pin.svg);
   position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
   top: -12px;
-  right: -12px;
+  right: -14px;
+}
+
+@media screen and (min-width: 481px) {
+  .about__card {
+    width: 344px;
+    height: 345px;
+  }
+  .about__card::after {
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    right: -26px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about__card {
+    width: 360px;
+    height: 356px;
+  }
 }
