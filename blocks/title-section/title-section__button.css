@@ -20,3 +20,11 @@
   color: #e0f0ff;
   border: #e0f0ff 1px solid;
 }
+
+@media screen and (min-width: 481px) {
+  .title-section__button {
+    height: 62px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
