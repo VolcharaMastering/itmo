@@ -1,0 +1,10 @@
+.about__swiper {
+  width: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .about__swiper {
+    width: 800px;
+  }
+}

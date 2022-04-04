@@ -1,9 +1,18 @@
 // initializing swiper for section "about"
-const aboutSwiper = new Swiper(".about", {
+const aboutSwiper = new Swiper(".about__swiper", {
   slidesPerView: "auto",
   centeredSlides: true,
   spaceBetween: 0,
   speed: 800,
+  watchOverflow: false,
+  observer: true,
+  observeParents: true,
+  watchSlidesProgress: true,
+
+  watchSlidesVisibility: true,
+  slideClass: 'about__card',
+  slideVisibleClass: 'about__card_visable',
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -13,18 +22,11 @@ const aboutSwiper = new Swiper(".about", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    320: {
-      slidesPerView: "auto",
-      spaceBetween: 0
-    },
     481: {
-      slidesPerView: "auto",
       centeredSlides: false,
-      spaceBetween: 0
     },
     1024: {
       initialSlide: 1,
-      slidesPerView: "auto",
       spaceBetween: 0
     }
   },
