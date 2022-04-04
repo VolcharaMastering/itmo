@@ -23,3 +23,5 @@
 @import url(../blocks/about/about__subtitle.css);
 @import url(../blocks/about/about__button.css);
 @import url(../blocks/about/about__button_hidden.css);
+@import url(../blocks/about/about__swiper.css);
+@import url(../blocks/about/about__card_visable.css);

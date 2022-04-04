@@ -23,36 +23,27 @@
   </section>
 
 
-  <section class="swiper about">
+  <section class="about">
     <h2 class="about__title">Несколько слов о нас</h2>
     <p class="about__subtitle">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии».</p>
 
-    <div class="swiper-wrapper about__card-container">
-      <div class="about__card swiper-slide">
-        <p class="about__date">Понедельник, 5 июля 2021г</p>
-        <h2 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h2>
-        <p class="about__description">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
-      </div>
-      <div class="about__card swiper-slide">
-        <p class="about__date">Понедельник, 5 июля 2021г</p>
-        <h2 class="about__card-title">АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…</h2>
-        <p class="about__description">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех ребятам принес Роберт Роботецкий — робот-виртуоз, исполнивший знаменитый французский романс «Под небом Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
-      </div>
-      <div class="about__card swiper-slide">
-        <p class="about__date">Суббота, 3 июля 2021г</p>
-        <h2 class="about__card-title">ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h2>
-        <p class="about__description">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и прошлого года. Из-за эпидемиологической ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
-      </div>
-      <div class="about__card swiper-slide">
-        <p class="about__date">тестовая дата</p>
-        <h2 class="about__card-title">тестовый заголовок</h2>
-        <p class="about__description">тестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описаниетестовое описание тестовое описание</p>
-      </div>
+    <div class="about__swiper">
+      <div class="swiper-wrapper about__card-container"></div>
+      <div class="swiper-pagination about__pagination"></div>
+      <div class="swiper-button-next about__button"></div>
+      <div class="swiper-button-prev about__button"></div>
     </div>
-    <div class="swiper-pagination about__pagination"></div>
-    <div class="swiper-button-next about__button"></div>
-    <div class="swiper-button-prev about__button"></div>
   </section>
+
+
+<!--Templates-->
+<template id="about-card-template">
+  <div class="about__card swiper-slide">
+    <p class="about__date">1</p>
+    <h2 class="about__card-title">2</h2>
+    <p class="about__description">3</p>
+  </div>
+</template>
 
 <!-- Swiper import-->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

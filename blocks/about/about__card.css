@@ -1,4 +1,6 @@
 .about__card {
+  visibility: hidden;
+  opacity: 0;
   width: 288px;
   height: 250px;
 
@@ -10,6 +12,9 @@
   margin: 12px 5px 0;
   border-radius: 5px;
   box-sizing: border-box;
+
+  transition: opacity 0.8s linear;
+  transition: visibility 0 0.8s linear;
 }
 
 .about__card::after {
