@@ -3,6 +3,15 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
+/* header css imports */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/header__logo.css);
+@import url(../blocks/header/header-nav.css);
+@import url(../blocks/header/header-menu.css);
+@import url(../blocks/header/header-menu__btn.css);
+@import url(../blocks/header/header-menu__item.css);
+@import url(../blocks/header/header-menu__link.css);
+
 /* vendor css imports */
 @import url(https://unpkg.com/swiper/swiper-bundle.min.css);
 

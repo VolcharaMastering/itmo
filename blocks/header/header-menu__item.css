@@ -1,0 +1,21 @@
+.header-menu__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-menu__item {
+        visibility: hidden;
+    }
+    
+    #menu__toggle:checked ~ .header-menu__item {
+        visibility: visible;
+        left: 0;
+    }
+}
