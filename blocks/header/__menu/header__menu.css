@@ -1,0 +1,14 @@
+.header__menu {
+z-index: 2;
+}
+
+@media screen and (max-width: 815px) {
+  .header__menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 330px;
+    height: 100%;
+    background-color: #000D26;
+  }
+}

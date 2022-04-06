@@ -1,0 +1,27 @@
+.header__list {
+  display: flex;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+}
+
+.header__list li {
+  list-style: none;
+  margin-left: 20.83px;
+}
+
+@media screen and (max-width: 815px) {
+  .header__list {
+    margin-top: 76px;
+    flex-direction: column;
+  }
+  .header__list li {
+    display: flex;
+    margin-left: 0;
+    width: 330px;
+    height: 44px;
+  }
+  .header__list li:hover {
+      background-color:  #001337;
+  }
+}

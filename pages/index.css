@@ -5,12 +5,13 @@
 
 /* header css imports */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/header__logo.css);
-@import url(../blocks/header/header-nav.css);
-@import url(../blocks/header/header-menu.css);
-@import url(../blocks/header/header-menu__btn.css);
-@import url(../blocks/header/header-menu__item.css);
-@import url(../blocks/header/header-menu__link.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__burger/header__durger.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__link/header__link.css);
+
 
 /* vendor css imports */
 @import url(https://unpkg.com/swiper/swiper-bundle.min.css);

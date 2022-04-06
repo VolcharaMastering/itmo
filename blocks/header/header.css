@@ -1,24 +1,30 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 80px;
-    padding: 0;
-    margin: 0 auto;
-    background-color: #000D26;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  height: 80px;
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-        height: 60px;
-    }
+.header::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  background-color: #000D26;
 }
 
-@media screen and (max-width: 481px) {
-    .header {
-        height: 44px;
-    }
+@media screen and (max-width: 815px) {
+  .header {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 44px;
+  }
 }

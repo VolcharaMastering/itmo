@@ -1,0 +1,29 @@
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.header__link:active {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  box-shadow: 0px 2px 0px #009FAC;
+}
+@media screen and (max-width: 815px) {
+  .header__link {
+    margin: auto 0;
+    margin-left: 40px;
+    width: 100%;
+  }
+
+  .header__link:active {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    box-shadow: none;
+  }
+}
