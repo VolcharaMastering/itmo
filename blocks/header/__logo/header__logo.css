@@ -1,5 +1,6 @@
 .header__logo {
-  z-index: 2;
+  z-index: 3;
+  transition: all 0.3s ease;
 }
 
 .header__logo img{
@@ -10,6 +11,13 @@
 @media screen and (max-width: 815px) {
   .header__logo img {
     width: 94.67px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header__logo.active-burger {
+    align-self: start;
+    margin-left: 30px;
   }
 }
 

@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 815px) {
   .header__content {
+  flex-direction: column;
   justify-content: center;
   }
 }

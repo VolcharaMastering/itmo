@@ -15,6 +15,9 @@
     margin-top: 76px;
     flex-direction: column;
   }
+  .header__list:last-of-type {
+    margin-bottom: 118px;
+  }
   .header__list li {
     display: flex;
     margin-left: 0;
@@ -23,5 +26,11 @@
   }
   .header__list li:hover {
       background-color:  #001337;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header__list li {
+    width: 100%;
   }
 }
