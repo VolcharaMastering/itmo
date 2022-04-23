@@ -1,23 +1,18 @@
 .header__logo {
   z-index: 3;
-  transition: all 0.3s ease;
 }
 
 .header__logo img{
   display: block;
   width: 150px;
 }
+.header__logo.active-burger {
+  display: none;
+}
 
 @media screen and (max-width: 815px) {
   .header__logo img {
     width: 94.67px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .header__logo.active-burger {
-    align-self: start;
-    margin-left: 30px;
   }
 }
 

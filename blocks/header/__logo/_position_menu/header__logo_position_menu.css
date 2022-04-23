@@ -1,0 +1,15 @@
+.header__logo_position_menu {
+  margin-top: 20px;
+  margin-left: 16px;
+  display: none;
+}
+.header__logo_position_menu img {
+  display: block;
+  width: 71px;
+}
+
+@media screen and (max-width: 815px) {
+  .header__logo_position_menu {
+    display: block;
+  }
+}

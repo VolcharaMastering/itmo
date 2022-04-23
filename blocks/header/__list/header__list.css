@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 815px) {
   .header__list {
-    margin-top: 76px;
+    margin-top: 56px;
     flex-direction: column;
   }
   .header__list:last-of-type {
