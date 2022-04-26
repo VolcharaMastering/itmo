@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 279px;
+    width: 278px;
     height: 100%;
     box-sizing: border-box;
     border: none;
@@ -22,7 +22,7 @@
 .education__input:checked + .education__button {
     color: #FFF;
     background-color: #009FAC;
-    width: 261px;
+    width: 260px;
 }
 
 .education__input:disabled + .education__button {
@@ -49,7 +49,7 @@
     .education__button {
         font-size: 12px;
         line-height: 16px;
-        width: 148.8px;
+        width: 148.6px;
   }
 
     .education__input:checked + .education__button {
@@ -57,7 +57,7 @@
     }
 
     .education__input:disabled + .education__button {
-        width: 148.8px;
+        width: 148.6px;
     }
     
 }
