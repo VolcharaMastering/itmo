@@ -1,0 +1,39 @@
+.education__programmes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 635px;
+    height: 364px;
+    margin: 30px;
+}
+
+@media screen and (max-width: 1160px) {
+    .education__programmes {
+        width: 540px;
+        margin: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .education__programmes {
+        width: 340px;
+        height: 282px;
+        margin: 20px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+    .education__programmes {
+        width: 410px;
+        margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 481px) {
+    .education__programmes {
+        width: 256px;
+        height: 322px;
+        margin: 0 auto 16px;
+    }
+  }

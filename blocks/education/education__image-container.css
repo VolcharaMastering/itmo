@@ -1,0 +1,37 @@
+.education__image-container {
+    display: flex;
+    position: relative;
+    width: 445px;
+    height: 364px;
+    margin: 30px;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__image-container {
+        width: 280px;
+        height: 282px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .education__image-container {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 410px;
+        height: 402px;
+        margin: 0;
+
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .education__image-container {
+        width: 256px;
+        height: 160px;
+        top: 16px;
+        left: 16px;
+  }
+}

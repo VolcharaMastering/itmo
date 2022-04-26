@@ -1,0 +1,19 @@
+.education__programmes-title {
+    font-family: 'OpenSans-SemiBold', Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #000D26;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__programmes-title {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.0588372px;
+  }
+}

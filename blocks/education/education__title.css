@@ -1,0 +1,42 @@
+.education__title {
+font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 68px;
+text-align: center;
+letter-spacing: 0.1px;
+text-transform: uppercase;
+color: #FFFFFF;
+width: 472px;
+height: 66px;
+padding: 0;
+margin: 80px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__title {
+        width: 690px;
+        height: 33px;
+        font-size: 24px;
+        line-height: 33px;
+        margin: 60px auto 0;
+  }
+}
+
+@media screen and (max-width: 690px) {
+    .education__title {
+        width: 450px;
+        margin: 50px auto 0;
+    }
+  }
+
+@media screen and (max-width: 481px) {
+    .education__title {
+        width: 121px;
+        height: 22px;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 40px auto 0;
+    }
+  }

@@ -1,0 +1,9 @@
+.education__list-element {
+   margin-left: 12px;
+}
+
+@media screen and (max-width: 1024px) {
+   .education__list-element {
+      margin-left: 0; 
+ }
+}

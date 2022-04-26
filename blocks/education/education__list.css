@@ -1,0 +1,26 @@
+.education__list {
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #000D26;
+    padding: 0;
+    margin-left: 22px;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__list {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.0588372px;
+        margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+    .education__list {
+        line-height: 16px;
+  }
+}

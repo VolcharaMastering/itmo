@@ -25,3 +25,20 @@
 @import url(../blocks/about/about__button_hidden.css);
 @import url(../blocks/about/about__swiper.css);
 @import url(../blocks/about/about__card_visable.css);
+
+/* education-section import */
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/education__title.css);
+@import url(../blocks/education/education__info.css);
+@import url(../blocks/education/education__card.css);
+@import url(../blocks/education/education__programmes.css);
+@import url(../blocks/education/education__programmes-title.css);
+@import url(../blocks/education/education__list.css);
+@import url(../blocks/education/education__list-element.css);
+@import url(../blocks/education/education__link.css);
+@import url(../blocks/education/education__image-container.css);
+@import url(../blocks/education/education__image..css);
+@import url(../blocks/education/education__buttons.css);
+@import url(../blocks/education/education__button-container.css);
+@import url(../blocks/education/education__button.css);
+@import url(../blocks/education/education__input.css);

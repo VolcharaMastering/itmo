@@ -1,0 +1,43 @@
+.education__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    width: 1169px;
+    height: 429px;
+    margin: 60px auto 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1160px) {
+    .education__card {
+        width: 1000px;
+        margin: 40px auto 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .education__card {
+        width: 690px;
+        height: 322px;
+        margin: 40px auto 0;
+  }
+}
+
+@media screen and (max-width: 690px) {
+    .education__card {
+        flex-direction: column;
+        position: relative;
+        width: 450px;
+        height: 528px;
+        margin: 40px auto 0;
+  }
+}
+
+@media screen and (max-width: 481px) {
+    .education__card {
+        width: 288px;
+        margin: 20px auto 0;
+    }
+  }

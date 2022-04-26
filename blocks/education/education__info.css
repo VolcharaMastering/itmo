@@ -1,0 +1,60 @@
+.education__info {
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    width: 920px;
+    height: 150px;
+    text-align: start;
+    padding: 0;
+    margin: 30px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__info {
+        width: 690px;
+        height: 100px;
+        font-size: 14px;
+        line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+    .education__info {
+        width: 580px;
+        height: 120px;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 20px 16px 0 36px;
+  }
+}
+
+
+@media screen and (max-width: 690px) {
+    .education__info {
+        width: 450px;
+        margin: 20px auto 0;
+  }
+}
+
+@media screen and (max-width: 481px) {
+    .education__info {
+        width: 288px;
+        height: 140px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+  }
+
+  @media screen and (max-width: 481px) {
+    .education__info {
+        width: 288px;
+        height: 160px;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 20px auto 0;
+    }
+  }

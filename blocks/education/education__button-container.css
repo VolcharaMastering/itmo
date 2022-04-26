@@ -1,0 +1,5 @@
+.education__button-container {
+    display: flex;
+    width: max-content;
+    height: 100%;
+}

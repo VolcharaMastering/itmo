@@ -1,0 +1,27 @@
+.education__link {
+    font-family: 'OpenSans-SemiBold', Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #000D26;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__link {
+        font-size: 14px;
+        line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+    .education__link {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.0588372px;
+  }
+}

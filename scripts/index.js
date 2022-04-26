@@ -115,3 +115,29 @@ window.onload = () => {
 };
 
 //END OF ABOUT SECTION SCRIPT
+
+// education - button and image
+
+const educationButtonPost = document.querySelector('.education__btn-post');
+const educationButtonMag = document.querySelector('.education__btn-mag');
+const educationImagePost = document.querySelector('.education__img-post');
+const educationImageMag = document.querySelector('.education__img-mag');
+
+educationButtonMag.addEventListener('click', () => {
+  educationImagePost.style.visibility = 'hidden';
+  educationImageMag.style.visibility = 'visible';
+  let a = document.querySelector('a[href="https://aspirantura.itmo.ru/?main=12"]');
+  if (a) {
+    a.setAttribute('href', 'https://abit.itmo.ru/program/14596#passport')
+  }
+});
+
+educationButtonPost.addEventListener('click', () => {
+  educationImageMag.style.visibility = 'hidden';
+  educationImagePost.style.visibility = 'visible';
+  let a = document.querySelector('a[href="https://abit.itmo.ru/program/14596#passport"]');
+  if (a) {
+    a.setAttribute('href', 'https://aspirantura.itmo.ru/?main=12')
+  }
+});
+

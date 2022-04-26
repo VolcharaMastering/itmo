@@ -1,0 +1,63 @@
+.education__button {
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 279px;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #000D26;
+    background-color: #E0F0FF;
+}
+
+.education__input:checked + .education__button {
+    color: #FFF;
+    background-color: #009FAC;
+    width: 261px;
+}
+
+.education__input:disabled + .education__button {
+    width: 279px;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__button {
+        font-size: 14px;
+        line-height: 19px;
+        width: 232.5px;
+    }
+
+    .education__input:checked + .education__button {
+        width: 217.5px;
+    }
+    
+    .education__input:disabled + .education__button {
+        width: 232.5px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .education__button {
+        font-size: 12px;
+        line-height: 16px;
+        width: 148.8px;
+  }
+
+    .education__input:checked + .education__button {
+        width: 138.2px;
+    }
+
+    .education__input:disabled + .education__button {
+        width: 148.8px;
+    }
+    
+}
