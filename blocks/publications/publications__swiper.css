@@ -1,0 +1,20 @@
+.publications__swiper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto 245px;
+}
+
+@media screen and (min-width: 481px) {
+    .publications__swiper {
+      width: 690px;
+      margin: 40px auto 333px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .publications__swiper {
+      width: 1100px;
+      margin: 0 auto;
+    }
+}

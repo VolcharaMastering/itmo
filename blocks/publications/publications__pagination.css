@@ -1,0 +1,14 @@
+.publications__pagination {
+    position: relative;
+  }
+  
+.publications__pagination .swiper-pagination-bullet {
+    background: #001337;
+    width: 8px;
+    height: 8px;
+    opacity: 0.5;
+  }
+  
+  .publications__pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+  }

@@ -1,0 +1,27 @@
+.publications__article-title {
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000D26;
+    width: 305px;
+    height: 60px;
+    margin: 0;
+    padding-right: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+    .publications__article-title {
+        width: 290px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .publications__article-title {
+        width: 268px;
+        height: 38px;
+        padding-right: 4px;
+    }
+}

@@ -42,3 +42,20 @@
 @import url(../blocks/education/education__button-container.css);
 @import url(../blocks/education/education__button.css);
 @import url(../blocks/education/education__input.css);
+
+/* publications-section import */
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/publications__title.css);
+@import url(../blocks/publications/publications__swiper.css);
+@import url(../blocks/publications/publications__card-container.css);
+@import url(../blocks/publications/publications__card.css);
+@import url(../blocks/publications/publications__card_visible.css);
+@import url(../blocks/publications/publications__image.css);
+@import url(../blocks/publications/publications__article.css);
+@import url(../blocks/publications/publications__article-title.css);
+@import url(../blocks/publications/publications__article-subtitle.css);
+@import url(../blocks/publications/publications__article-text.css);
+@import url(../blocks/publications/publications__btn-container.css);
+@import url(../blocks/publications/publications__link.css);
+@import url(../blocks/publications/publications__share.css);
+@import url(../blocks/publications/publications__pagination.css);

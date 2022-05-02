@@ -1,0 +1,28 @@
+.publications__btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 348px;
+    height: 70px;
+    background: #009FAC;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .publications__btn-container {
+        width: 330px;
+        height: 60px;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .publications__btn-container {
+        width: 288px;
+        height: 44px;
+    }
+}

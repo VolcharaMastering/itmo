@@ -77,6 +77,17 @@
     </form>
   </section>
 
+  <section class="publications">
+    <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
+    <div class="publications__swiper">
+      <div class="swiper-wrapper publications__card-container"></div>
+      <div class="swiper-pagination publications__pagination"></div>
+      <div class="swiper-button-next publications__button"></div>
+      <div class="swiper-button-prev publications__button"></div>
+    </div>
+
+  </section>
+
 <!--Templates-->
 <template id="about-card-template">
   <div class="about__card swiper-slide">
@@ -86,9 +97,25 @@
   </div>
 </template>
 
+<template id="publications-card-template">
+  <div class="publications__card swiper-slide">
+    <img class="publications__image">
+    <article class="publications__article">
+      <h3 class="publications__article-title"></h3>
+      <h4 class="publications__article-subtitle"></h4>
+      <p class="publications__article-text"></p>
+    </article>
+    <div class="publications__btn-container">
+      <a href="#" class="publications__link">Читать полностью &rarr;</a>
+      <button class="publications__share" type="button"></button>
+    </div>
+  </div>
+</template>
+
 <!-- Swiper import-->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+<script src="./scripts/publicationsSwiper.js"></script>
 <script src="./scripts/index.js"></script>
 </body>
 </html>

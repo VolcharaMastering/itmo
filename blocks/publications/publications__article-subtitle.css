@@ -1,0 +1,29 @@
+.publications__article-subtitle {
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #009FAC;
+    width: 305px;
+    height: 38px;
+    margin: 0;
+    padding: 4px 3px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .publications__article-subtitle {
+        width: 290px;
+        padding: 4px 0;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .publications__article-subtitle {
+        font-size: 12px;
+        line-height: 145%;
+        width: 268px;
+        height: 34px;
+        padding-right: 4px;
+    }
+}

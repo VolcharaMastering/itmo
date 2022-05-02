@@ -1,0 +1,34 @@
+.publications__title {
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #001337;
+    width: 472px;
+    height: 66px;
+    margin: 80px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .publications__title {
+        font-size: 24px;
+        line-height: 33px;
+        width: 690px;
+        height: 33px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .publications__title {
+        font-size: 16px;
+        line-height: 22px;
+        width: 288px;
+        height: 22px;
+        margin-top: 40px;
+    }
+}

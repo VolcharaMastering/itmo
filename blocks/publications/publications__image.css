@@ -1,0 +1,21 @@
+.publications__image {
+    width: 310px;
+    height: 223px;
+    background: url(.jpg);
+    border-radius: 10px;
+    margin: 20px 19px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .publications__image {
+        width: 330px;
+        height: 515px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .publications__image{
+        width: 256px;
+        height: 160px;
+    }
+}
