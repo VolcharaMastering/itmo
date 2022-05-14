@@ -1,0 +1,64 @@
+.publications__button {
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    position: absolute;
+}
+
+@media screen and (max-width: 960px) {
+    .publications__button {
+        display: none;
+    }
+}
+
+.publications__button:nth-child(even) {
+    margin: 300px auto auto 69px;
+}
+
+.publications__button:nth-child(even)::after {
+    content: url(../../images/public_button_left.svg);
+}
+
+@media screen and (max-width: 1024px) {
+    .publications__button:nth-child(even) {
+        margin: 300px auto auto 39px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .publications__button:nth-child(even) {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .publications__button:nth-child(even) {
+        margin-left: 20px;
+    }
+}
+
+.publications__button:nth-child(odd) {
+    margin: 300px 69px auto auto;
+}
+
+.publications__button:nth-child(odd)::after {
+    content: url(../../images/public_button_right.svg);
+}
+
+@media screen and (max-width: 1024px) {
+    .publications__button:nth-child(odd) {
+        margin: 300px 39px auto auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .publications__button:nth-child(odd) {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .publications__button:nth-child(odd) {
+        margin-right: 20px;
+    }
+}

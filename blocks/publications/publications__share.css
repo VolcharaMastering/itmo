@@ -1,7 +1,10 @@
 .publications__share {
-    background-image: url(../../images/publication_share.svg);
     width: 20.58px;
     height: 21.47px;
     object-fit: cover;
     cursor: pointer;
+    background: transparent;
+    border: none;
+    margin-right: 27.33px;
+    margin-bottom: 3px;
 }

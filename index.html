@@ -79,13 +79,14 @@
 
   <section class="publications">
     <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
-    <div class="publications__swiper">
-      <div class="swiper-wrapper publications__card-container"></div>
-      <div class="swiper-pagination publications__pagination"></div>
+    <div class="publications__buttons">
       <div class="swiper-button-next publications__button"></div>
       <div class="swiper-button-prev publications__button"></div>
     </div>
-
+    <div class="publications__swiper">
+      <div class="swiper-wrapper publications__card-container"></div>
+      <div class="swiper-pagination publications__pagination"></div>
+    </div>
   </section>
 
 <!--Templates-->
@@ -100,14 +101,19 @@
 <template id="publications-card-template">
   <div class="publications__card swiper-slide">
     <img class="publications__image">
-    <article class="publications__article">
+    <div class="publications__article">
       <h3 class="publications__article-title"></h3>
       <h4 class="publications__article-subtitle"></h4>
       <p class="publications__article-text"></p>
-    </article>
+    </div>
     <div class="publications__btn-container">
-      <a href="#" class="publications__link">Читать полностью &rarr;</a>
-      <button class="publications__share" type="button"></button>
+      <a href="#" class="publications__link">
+        <p class="publications__link-text">Читать полностью</p>
+        <p>&rarr;</p>
+      </a>
+      <button class="publications__share" type="button">
+        <img src="./images/publication_share.svg">
+      </button>
     </div>
   </div>
 </template>

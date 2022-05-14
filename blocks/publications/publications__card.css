@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
     .publications__card {
         width: 348px;
         height: 548px;

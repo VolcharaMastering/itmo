@@ -15,23 +15,13 @@
     }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 710px) {
     .education__image-container {
         position: absolute;
-        top: 20px;
-        left: 20px;
-        width: 410px;
-        height: 402px;
-        margin: 0;
-
-    }
-}
-
-@media screen and (max-width: 481px) {
-    .education__image-container {
-        width: 256px;
-        height: 160px;
         top: 16px;
         left: 16px;
-  }
+        width: 256px;
+        height: 160px;
+        margin: 0;
+    }
 }

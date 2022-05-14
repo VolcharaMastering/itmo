@@ -1,23 +1,22 @@
 .publications__link {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    width: 170px;
+    width: 209px;
     height: 30px;
     padding: 0;
     margin-left: 20px;
     cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-bottom: 3px;
 }
 
 @media screen and (max-width: 481px) {
     .publications__link {
-        width: 288px;
-        height: 44px;
+        width: 168px;
+        height: 19px;
+        margin-left: 16px;
     }
 }

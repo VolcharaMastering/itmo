@@ -25,11 +25,11 @@
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 710px) {
     .education__card {
         flex-direction: column;
         position: relative;
-        width: 450px;
+        width: 288px;
         height: 528px;
         margin: 40px auto 0;
   }
@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 481px) {
     .education__card {
-        width: 288px;
+        
         margin: 20px auto 0;
     }
   }

@@ -1,21 +1,22 @@
 .publications__image {
-    width: 310px;
-    height: 223px;
-    background: url(.jpg);
+    width: 256px;
+    height: 160px;
+    background: url();
     border-radius: 10px;
-    margin: 20px 19px 0;
+    margin: 16px 16px 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 481px) {
     .publications__image {
-        width: 330px;
-        height: 515px;
+        width: 291px;
+        height: 158px;
+        margin: 20px 20px 0 19px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1280px) {
     .publications__image{
-        width: 256px;
-        height: 160px;
+        width: 310px;
+        height: 223px;
     }
 }

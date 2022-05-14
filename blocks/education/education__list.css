@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 710px) {
     .education__list {
         line-height: 16px;
   }

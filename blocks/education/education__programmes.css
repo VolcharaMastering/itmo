@@ -23,17 +23,10 @@
   }
 }
 
-@media screen and (max-width: 690px) {
-    .education__programmes {
-        width: 410px;
-        margin-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 710px) {
     .education__programmes {
         width: 256px;
         height: 322px;
         margin: 0 auto 16px;
-    }
   }
+}

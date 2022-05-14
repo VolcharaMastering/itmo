@@ -1,3 +1,15 @@
 .publications__card-container {
-    margin: 0 auto 50px;  
+    margin: 0 auto 16px; 
+}
+
+@media screen and (min-width: 481px) {
+    .publications__card-container {
+        margin: 0 auto 23px; 
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .publications__card-container {
+        margin: 0 auto 52px;
+    }
 }

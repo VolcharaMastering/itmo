@@ -10,7 +10,7 @@
     color: #001337;
     width: 472px;
     height: 66px;
-    margin: 80px auto 0;
+    margin: 80px auto 30px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,16 +19,16 @@
         line-height: 33px;
         width: 690px;
         height: 33px;
-        margin-top: 60px;
+        margin: 60px auto 40px;
     }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 710px) {
     .publications__title {
         font-size: 16px;
         line-height: 22px;
         width: 288px;
         height: 22px;
-        margin-top: 40px;
+        margin: 40px auto 20px;
     }
 }

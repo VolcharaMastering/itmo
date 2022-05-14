@@ -1,0 +1,16 @@
+.publications__link-text {
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 481px) {
+    .publications__link-text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}

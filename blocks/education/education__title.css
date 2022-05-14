@@ -24,14 +24,7 @@ margin: 80px auto 0;
   }
 }
 
-@media screen and (max-width: 690px) {
-    .education__title {
-        width: 450px;
-        margin: 50px auto 0;
-    }
-  }
-
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 710px) {
     .education__title {
         width: 121px;
         height: 22px;

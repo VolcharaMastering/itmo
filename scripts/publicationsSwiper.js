@@ -16,7 +16,7 @@ const publicationsArray = [
     {
         image: 'images/publications/publication_User Profiles.png',
         titleString: 'User Profiles Matching for Different Social Networks Based …',
-        subtitleString: 'Timur Sokhin, Nikolay Butakov,\nDenis Nasonov',
+        subtitleString: 'Timur Sokhin, Nikolay Butakov,\n Denis Nasonov',
         description: 'It is common practice nowadays to use multiple social networks for different social roles. Although this, these networks assume differences in content type, communications and style of speech. If we intend to understand human behaviour as a key-feature for recommender systems, banking risk assessm…',
         link: 'https://scholar.google.ru/citations?view_op=view_citation&hl=ru&user=r5WYVCIAAAAJ&sortby=pubdate&citation_for_view=r5WYVCIAAAAJ:4JMBOYKVnBMC'
     },
@@ -30,8 +30,8 @@ const publicationsArray = [
     {
         image: 'images/publications/publicaion_Intellectual.png',
         titleString: 'Intellectual Execution Scheme of Iterative Computational Models …',
-        subtitleString: 'Mikhail Melnik, Denis A Nasonov,\nAlexey Liniov',
-        description: 'In the modern world, with the growth of the volume of processed data arrays, the logic of solving problems also\nbecomes more complex. This leads more and more often to the need to use high-performance computational\nclusters, such as supercomputers. Created m…',
+        subtitleString: 'Mikhail Melnik, Denis A Nasonov,\n Alexey Liniov',
+        description: 'In the modern world, with the growth of the volume of processed data arrays, the logic of solving problems also\nbecomes more complex. This leads more and more often to the need to use high-performance computational\n clusters, such as supercomputers. Created m…',
         link: 'https://scholar.google.ru/citations?view_op=view_citation&hl=ru&user=r5WYVCIAAAAJ&sortby=pubdate&citation_for_view=r5WYVCIAAAAJ:maZDTaKrznsC'
     },
     {
@@ -43,9 +43,11 @@ const publicationsArray = [
     }
 ];
 
-const publicationsTemplate = document.querySelector('#publications-card-template').content;
+const publicationsTemplate = document.querySelector('#publications-card-template')
+      .content;
 const publicationsContainer = document.querySelector('.publications__card-container');
 const publicationsNavButtons = Array.from(document.querySelectorAll('.publications__button'));
+
 
 const publicationsInfo = publicationsArray.map(function (item) {
     return {
@@ -63,18 +65,27 @@ const publicationsInfo = publicationsArray.map(function (item) {
 
   function renderCardPublication ({ image, titleString, subtitleString, description, link }) {
     const publicationElement = publicationsTemplate.querySelector('.publications__card')
-                            .cloneNode(true);
+          .cloneNode(true);
     publicationElement.querySelector('.publications__image').src = image;
     publicationElement.querySelector('.publications__article-title').textContent = titleString;
     publicationElement.querySelector('.publications__article-subtitle').textContent = subtitleString;
     publicationElement.querySelector('.publications__article-text').textContent = description;
-    publicationElement.querySelector('.publications__link').src = link;
+    publicationElement.querySelector('.publications__link').href = link;
 
     publicationsContainer.prepend(publicationElement);
   }
 
   renderPublications();
 
+
+
+  // const publicationsArticle = document.querySelector('.publications__article');
+  // const publicationsImage = document.querySelector('.publications__image');
+  // const publicationsButtonContainer = document.querySelector('.publications__btn-container');
+  
+  
+  // publicationsArticle.addEventListener('mouseover', () => publicationsArticle.style.backgroundColor = 'red');
+  
 const publicationSwiper = new Swiper('.publications__swiper', {   
     centeredSlides: true,
     speed: 800,
@@ -85,17 +96,18 @@ const publicationSwiper = new Swiper('.publications__swiper', {
     watchSlidesVisibility: true,
     slideClass: 'publications__card',
     slideVisibleClass: 'publications__card_visible',
-
+    loop: true,
     slidesPerView: 'auto',
     spaceBetween: 8,
   
     breakpoints: {
-      481: {
+      710: {
+        spaceBetween: 30,
         centeredSlides: false,
-        spaceBetween: 30
+        watchOverflow: false,
+        slidesPerView: 2,
       },
       1280: {
-        watchOverflow: false,
         slidesPerView: 3,
         spaceBetween: 33
       }
@@ -111,4 +123,3 @@ const publicationSwiper = new Swiper('.publications__swiper', {
       prevEl: '.swiper-button-prev',
     },
 });
-
