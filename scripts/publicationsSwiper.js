@@ -96,7 +96,6 @@ const publicationsInfo = publicationsArray.map(function (item) {
       watchSlidesVisibility: true,
       slideClass: 'publications__card',
       slideVisibleClass: 'publications__card_visible',
-      loop: true,
       slidesPerView: 'auto',
       spaceBetween: 8,
     

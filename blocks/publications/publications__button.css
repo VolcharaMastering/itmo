@@ -12,7 +12,7 @@
 }
 
 .publications__button:nth-child(even) {
-    margin: 300px auto auto 69px;
+    margin: 270px auto auto 69px;
 }
 
 .publications__button:nth-child(even)::after {
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 1024px) {
     .publications__button:nth-child(even) {
-        margin: 300px auto auto 39px;
+        margin: 230px auto auto 39px;
     }
 }
 
@@ -38,7 +38,7 @@
 }
 
 .publications__button:nth-child(odd) {
-    margin: 300px 69px auto auto;
+    margin: 270px 69px auto auto;
 }
 
 .publications__button:nth-child(odd)::after {
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 1024px) {
     .publications__button:nth-child(odd) {
-        margin: 300px 39px auto auto;
+        margin: 230px 39px auto auto;
     }
 }
 
