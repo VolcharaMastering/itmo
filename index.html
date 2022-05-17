@@ -101,11 +101,11 @@
 <template id="publications-card-template">
   <div class="publications__card swiper-slide">
     <img class="publications__image">
-    <div class="publications__article">
+    <article class="publications__article">
       <h3 class="publications__article-title"></h3>
       <h4 class="publications__article-subtitle"></h4>
       <p class="publications__article-text"></p>
-    </div>
+    </article>
     <div class="publications__btn-container">
       <a href="#" class="publications__link">
         <p class="publications__link-text">Читать полностью</p>
@@ -115,9 +115,13 @@
         <img src="./images/publication_share.svg">
       </button>
     </div>
+    <div class="ya-share2 publications__networks-list"
+     data-curtain data-services="vkontakte,odnoklassniki,telegram,twitter,viber,whatsapp"></div>
   </div>
 </template>
 
+<!-- Share import-->
+<script src="https://yastatic.net/share2/share.js"></script>
 <!-- Swiper import-->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 

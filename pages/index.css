@@ -62,3 +62,5 @@
 @import url(../blocks/publications/publications__pagination.css);
 @import url(../blocks/publications/publications__buttons.css);
 @import url(../blocks/publications/publications__button.css);
+@import url(../blocks/publications/publications__networks-list.css);
+@import url(../blocks/publications/publications__networks-list_visible.css);

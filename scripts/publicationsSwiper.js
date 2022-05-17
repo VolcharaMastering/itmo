@@ -48,7 +48,6 @@ const publicationsTemplate = document.querySelector('#publications-card-template
 const publicationsContainer = document.querySelector('.publications__card-container');
 const publicationsNavButtons = Array.from(document.querySelectorAll('.publications__button'));
 
-
 const publicationsInfo = publicationsArray.map(function (item) {
     return {
         image: item.image,
@@ -73,53 +72,61 @@ const publicationsInfo = publicationsArray.map(function (item) {
     publicationElement.querySelector('.publications__link').href = link;
 
     publicationsContainer.prepend(publicationElement);
+
+    const publicationsShareButton = document.querySelector('.publications__share');
+    const publicationsNetworksList = document.querySelector('.publications__networks-list');
+
+    publicationsShareButton.addEventListener('click', () =>  {
+          publicationsNetworksList.classList.add('publications__networks-list_visible');
+          setTimeout(closeNetworksList, 5000);
+        }      
+      );
+
+    function closeNetworksList  () { 
+      publicationsNetworksList.classList.remove('publications__networks-list_visible');
+    };
+  
+  const publicationSwiper = new Swiper('.publications__swiper', {   
+      centeredSlides: true,
+      speed: 800,
+      watchOverflow: true,
+      observer: true,
+      observeParents: true,
+      watchSlidesProgress: true,
+      watchSlidesVisibility: true,
+      slideClass: 'publications__card',
+      slideVisibleClass: 'publications__card_visible',
+      loop: true,
+      slidesPerView: 'auto',
+      spaceBetween: 8,
+    
+      breakpoints: {
+        710: {
+          spaceBetween: 30,
+          centeredSlides: false,
+          watchOverflow: false,
+          slidesPerView: 2,
+        },
+        1280: {
+          slidesPerView: 3,
+          spaceBetween: 33
+        }
+      },
+      
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+  });
   }
 
   renderPublications();
 
+  
+  
 
-
-  // const publicationsArticle = document.querySelector('.publications__article');
-  // const publicationsImage = document.querySelector('.publications__image');
-  // const publicationsButtonContainer = document.querySelector('.publications__btn-container');
-  
-  
-  // publicationsArticle.addEventListener('mouseover', () => publicationsArticle.style.backgroundColor = 'red');
-  
-const publicationSwiper = new Swiper('.publications__swiper', {   
-    centeredSlides: true,
-    speed: 800,
-    watchOverflow: true,
-    observer: true,
-    observeParents: true,
-    watchSlidesProgress: true,
-    watchSlidesVisibility: true,
-    slideClass: 'publications__card',
-    slideVisibleClass: 'publications__card_visible',
-    loop: true,
-    slidesPerView: 'auto',
-    spaceBetween: 8,
-  
-    breakpoints: {
-      710: {
-        spaceBetween: 30,
-        centeredSlides: false,
-        watchOverflow: false,
-        slidesPerView: 2,
-      },
-      1280: {
-        slidesPerView: 3,
-        spaceBetween: 33
-      }
-    },
-    
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-});

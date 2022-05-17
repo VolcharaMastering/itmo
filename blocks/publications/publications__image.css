@@ -4,6 +4,7 @@
     background: url();
     border-radius: 10px;
     margin: 16px 16px 0;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 481px) {

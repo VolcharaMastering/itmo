@@ -7,6 +7,8 @@
     height: 242px;
     margin: 0;
     padding: 0;
+    cursor: default;
+    background-color: #fff;
 }
 
 @media screen and (min-width: 481px) {
@@ -20,10 +22,8 @@
     .publications__article {
         width: 348px;
         height: 305px;
-        cursor: pointer;
+        z-index: 1;
+        border-radius: 0px 0px 10px 10px;
     }
 }
 
-.publications__article :hover + .publications__image {
-  height: 158px;
-}

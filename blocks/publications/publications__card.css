@@ -10,8 +10,8 @@
     visibility: hidden;
     box-sizing: border-box;
     opacity: 0;
-    transition: opacity 0.8s linear;
-    transition: visibility 0 0.8s linear;
+    transition: opacity 1s linear;
+    transition: visibility 0 1s linear;
 }
 
 @media screen and (min-width: 481px) {
@@ -25,5 +25,13 @@
     .publications__card {
         width: 348px;
         height: 548px;
+    }
+
+    .publications__card:hover > .publications__image {
+        height: 158px;
+    }
+
+    .publications__card:hover > .publications__article {
+        border-radius: 0;
     }
 }

@@ -1,0 +1,30 @@
+.publications__networks-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #fff;
+    padding: 0 17px 0;
+    margin: 0;
+    border-radius: 8px;
+    width: 165px;
+    height: 56px;
+    position: absolute;
+    bottom: 44px;
+    right: 0;
+    object-fit: cover;
+    z-index: -1 ;
+}
+
+@media screen and (min-width: 710px) {
+    .publications__networks-list {
+        bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .publications__networks-list {
+        bottom: 66px;
+    }
+}
