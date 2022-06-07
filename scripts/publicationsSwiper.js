@@ -98,17 +98,20 @@ const publicationsInfo = publicationsArray.map(function (item) {
       slideVisibleClass: 'publications__card_visible',
       slidesPerView: 'auto',
       spaceBetween: 8,
-    
+      loopedSlides: 1,
+      loop: true,
       breakpoints: {
         710: {
           spaceBetween: 30,
           centeredSlides: false,
           watchOverflow: false,
           slidesPerView: 2,
+          loopedSlides: 2
         },
         1280: {
           slidesPerView: 3,
-          spaceBetween: 33
+          spaceBetween: 33,
+          loopedSlides: 3
         }
       },
       
