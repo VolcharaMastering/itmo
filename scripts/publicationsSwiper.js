@@ -108,7 +108,9 @@ const publicationsInfo = publicationsArray.map(function (item) {
         },
         1280: {
           slidesPerView: 3,
-          spaceBetween: 33
+          centeredSlides: true,
+          spaceBetween: 33,
+          initialSlide: 1
         }
       },
       

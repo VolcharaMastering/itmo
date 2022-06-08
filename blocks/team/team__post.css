@@ -1,0 +1,30 @@
+.team__post {
+    width: 71px;
+    height: 14px;
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #009FAC;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 710px) {
+    .team__post {
+        width: 100%;
+        height: 17px;
+        font-size: 12px;
+        line-height: 145%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .team__post {
+        height: 19px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+}

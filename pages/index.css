@@ -64,3 +64,12 @@
 @import url(../blocks/publications/publications__button.css);
 @import url(../blocks/publications/publications__networks-list.css);
 @import url(../blocks/publications/publications__networks-list_visible.css);
+
+/* team-section import */
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/team__title.css);
+@import url(../blocks/team/team__card.css);
+@import url(../blocks/team/team__card_visible.css);
+@import url(../blocks/team/team__image.css);
+@import url(../blocks/team/team__name.css);
+@import url(../blocks/team/team__post.css);
