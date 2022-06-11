@@ -6,3 +6,4 @@ Lending for laboratory ITMO
 forarbaiten@yandex.ru
 dalexeych@gmail.com
 aleksamahaeva@yandex.ru
+ekaterinatop4ieva@yandex.ru
